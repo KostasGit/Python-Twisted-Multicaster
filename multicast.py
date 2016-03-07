@@ -60,7 +60,7 @@ def sort(message,processID,lamClock) :
 
 def deliveredMsg():
 	global ackList,messagesList,delivered_messages
-	counterAck =0
+	counterAck =0 
 	point = ''
 	tempList = split_string(messagesList[0])
 	numberMsg = tempList[0]
