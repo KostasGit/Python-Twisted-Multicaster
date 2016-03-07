@@ -17,7 +17,7 @@ The code is pretty self-explainatory, but i'll try my best to break it down into
 Main:
 1. Create the peerfactory
 2. Listen to the given ports for a connection
-3. Make the connections
+3. Make the connections 
 4. Run the reactor and wait for messages
 
 After it makes the connections, each peer multicasts 20 messages.
